@@ -1,3 +1,10 @@
 body {
+    background-color: aqua !important;
+}
+
+.person-card {
+    margin-bottom: 15px;
+}
+.card-header {
     background-color: grey;
 }
