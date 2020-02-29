@@ -3,10 +3,10 @@ import personData from '../helpers/data/personData.js'
 
 //function that builds graveyard cards
 const buildGraveyard = () => {
-//get person data, only printing the h2 dynamically
+//get person data, only printing the h2 dynamicallyg
     const persons = personData.getDeadPersons();
     let domString = '<h2 class="col-12 text-center">Graveyard</h2>';
-    domString +=  '<div class="d-flex row-wrap">';
+    domString +=  '<div class="d-flex flex-wrap">';
 
     persons.forEach((person) => {
     domString += '<div class="col-4 person-card">'
